@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             {/* About Section */}
-            <div className="w3-container" style={{ padding: "128px 16px" }} id="about">
+            <div className="w3-container" style={{ padding: "108px 16px" }} id="about">
                 <h3 className="w3-center">ABOUT THE COMPANY</h3>
                 <p className="w3-center w3-large">Key features of our company</p>
                 <div className="w3-row-padding w3-center" style={{ marginTop: "64px"}}>
