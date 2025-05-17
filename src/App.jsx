@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import About from './Components/About'
 import Promo from './Components/Promo'
 import Team from './Components/Team'
+import Statistics from './Components/Statistics'
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Promo/>
-      <Team/>
+      <Promo />
+      <Team />
+      <Statistics />
     </>
   )
 }
