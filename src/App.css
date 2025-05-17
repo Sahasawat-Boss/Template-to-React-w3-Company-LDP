@@ -1,7 +1,27 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif
+}
+
+body,
+html {
+    height: 100%;
+    line-height: 1.8;
+}
+
 /* Full height image header */
 .bgimg-1 {
     background-position: center;
     background-size: cover;
     background-image: url("https://t4.ftcdn.net/jpg/04/48/37/21/360_F_448372183_BzkeIIM4ny4MqZmGMvtADEBlDYAt7EZZ.jpg");
     min-height: 90vh;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
 }
