@@ -6,6 +6,7 @@ import About from './Components/About'
 import Promo from './Components/Promo'
 import Team from './Components/Team'
 import Statistics from './Components/Statistics'
+import Work from './Components/Work'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Promo />
       <Team />
       <Statistics />
+      <Work />
     </>
   )
 }

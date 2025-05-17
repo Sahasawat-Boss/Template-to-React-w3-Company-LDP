@@ -4,8 +4,8 @@ const Statistics = () => {
     return (
         <div>
             {/* Promo Section "Statistics" */}
-            <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-                <div class="w3-quarter">
+            <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+                <div className="w3-quarter">
                     <span className="w3-xxlarge">14+</span>
                     <br />Partners
                 </div>
