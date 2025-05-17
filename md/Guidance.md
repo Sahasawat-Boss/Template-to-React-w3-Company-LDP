@@ -3,6 +3,8 @@
 # Setup
 1. install react using VITE
 
+2. Clear App.jsx
+
 # Check <Link>
 - `<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">`
 
