@@ -68,7 +68,7 @@
 // }
 
 // export default Work
-// =======================================
+// ======= Add JS to JSx ================================================================
 import React, { useState } from 'react';
 
 const Work = () => {
@@ -128,7 +128,7 @@ const Work = () => {
                 <div
                     id="modal01"
                     className="w3-modal"
-                    style={{ display: 'block', paddingTop: '100px' }}
+                    style={{ display: 'block', paddingTop: '80px' }}
                     onClick={closeModal}
                 >
                     <span
@@ -137,8 +137,10 @@ const Work = () => {
                     >
                         &times;
                     </span>
+
                     <div className="w3-modal-content w3-animate-zoom w3-center w3-transparent">
-                        <img id="img01" src={modalSrc} style={{ width: '85 %' }} alt={modalAlt} />
+                        <img id="img01" src={modalSrc} style={{ width: '80 %' }} alt={modalAlt} />
+                        
                         <p id="caption" className="w3-opacity w3-large">
                             {modalAlt}
                         </p>
