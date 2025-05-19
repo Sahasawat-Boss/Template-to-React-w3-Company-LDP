@@ -7,6 +7,7 @@ import Promo from './Components/Promo'
 import Team from './Components/Team'
 import Statistics from './Components/Statistics'
 import Work from './Components/Work'
+import Skill from './Components/Skill'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Team />
       <Statistics />
       <Work />
+      <Skill/>
     </>
   )
 }
