@@ -4,8 +4,11 @@ const Work = () => {
 
     const WorkImage = {
         image1: "https://m.media-amazon.com/images/I/51-YL8E2zYL._AC_UF894,1000_QL80_.jpg",
-    }
+    };
 
+    function OpenImage() {
+        console.log("Open Image Function");
+    }
 
     return (
         <div>
@@ -16,31 +19,47 @@ const Work = () => {
 
                 <div className="w3-row-padding" style={{ marginTop: "64px" }}>
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="A microphone" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="A microphone" />
                     </div>
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="A phone" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="A phone" />
                     </div>
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="A drone" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="A drone" />
                     </div>
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="Soundbox" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="Soundbox" />
                     </div>
                 </div>
 
                 <div className="w3-row-padding w3-section">
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="A tablet" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="A tablet" />
                     </div>
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="A camera" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="A camera" />
                     </div>
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="A typewriter" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="A typewriter" />
                     </div>
                     <div className="w3-col l3 m6">
-                        <img src={WorkImage.image1} style={{ width: "100%" }} className="w3-hover-opacity" alt="A tableturner" />
+                        <img src={WorkImage.image1} style={{ width: "100%" }}
+                            onClick={OpenImage}
+                            className="w3-hover-opacity" alt="A tableturner" />
                     </div>
                 </div>
             </div>

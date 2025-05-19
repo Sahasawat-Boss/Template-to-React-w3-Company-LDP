@@ -8,6 +8,9 @@ import Team from './Components/Team'
 import Statistics from './Components/Statistics'
 import Work from './Components/Work'
 import Skill from './Components/Skill'
+import Pricing from './Components/Pricing'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -20,7 +23,10 @@ function App() {
       <Team />
       <Statistics />
       <Work />
-      <Skill/>
+      <Skill />
+      <Pricing />
+      <Contact />
+      <Footer />
     </>
   )
 }

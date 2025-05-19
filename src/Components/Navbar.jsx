@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
 
 function w3_open(){
-    console.log("Open Function")
+    console.log("Open Function");
 }
 
 
@@ -23,7 +23,7 @@ function w3_open(){
                     </div>
                     {/* Hide right-floated links on small screens and replace them with a menu icon */}
 
-                    <a href="javascript:void(0)" className="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onClick={w3_open()}>
+                    <a href="javascript:void(0)" className="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onClick={w3_open}>
                         <i className="fa fa-bars"></i>
                     </a>
                 </div>
